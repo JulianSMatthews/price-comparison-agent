@@ -2,6 +2,7 @@ import streamlit as st
 from compare_agent import compare_prices
 
 st.title("💷 Price Comparison Agent")
+st.write("app loaded")
 
 query = st.text_input("Enter product name (e.g. 'wireless earbuds'):")
 asin = st.text_input("Optional: Enter Amazon ASIN (10-digit code):")
